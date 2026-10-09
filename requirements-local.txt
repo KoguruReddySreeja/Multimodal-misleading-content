@@ -1,0 +1,17 @@
+# Lightweight local development environment. Install only when requested:
+# python -m pip install -r requirements-local.txt
+
+# Notebooks
+jupyterlab==4.4.3
+ipykernel==6.29.5
+
+# Numerical analysis and data inspection
+numpy==2.2.5
+pandas==2.2.3
+matplotlib==3.10.3
+seaborn==0.13.2
+pillow==11.2.1
+
+# Testing and code quality
+pytest==8.3.5
+ruff==0.11.11

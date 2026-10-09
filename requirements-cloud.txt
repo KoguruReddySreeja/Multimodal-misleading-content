@@ -1,0 +1,10 @@
+# Future cloud/AI environment; do not install this file until a cloud runtime
+# and its supported Python, CUDA, and PyTorch versions have been selected.
+#
+# Start from the shared lightweight tools:
+-r requirements-local.txt
+
+# GPU and model dependencies are intentionally deferred. Add pinned versions
+# here only after selecting the cloud provider, runtime image, CUDA version,
+# and compatible PyTorch build. Do not add PyTorch, torchvision, Transformers,
+# CLIP, or Hugging Face model packages before that decision is documented.
